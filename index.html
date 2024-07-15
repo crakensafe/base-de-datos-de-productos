@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="text-center">
+        <h1 class="text-4xl text-white bg-purple-700 p-8">❤️❤️❤️Alura Geek</h1>
+    </nav>
+    <div class="bg-gray-100 flex h-[600px]">
+        <!-- Sección del Catálogo -->
+        <div class="w-7/12 p-6">
+            <h2 class="text-2xl font-bold mb-6 text-center">Mis productos</h2>
+            <div id="productList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </div>
+
+        <!-- Sección del Formulario -->
+        <div class="w-5/12 bg-white p-6 rounded-lg shadow-lg p-8">
+            <h2 class="text-2xl font-bold mb-6 text-center">Agregar Producto</h2>
+            <form id="productForm">
+                <div class="mb-4">
+                    <label for="nombre" class="block text-gray-700 text-sm font-bold mb-2">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre del producto" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="mb-4">
+                    <label for="precio" class="block text-gray-700 text-sm font-bold mb-2">Precio</label>
+                    <input type="number" id="precio" name="precio" placeholder="Precio del producto" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="mb-6">
+                    <label for="imagen" class="block text-gray-700 text-sm font-bold mb-2">URL de la Imagen</label>
+                    <input type="text" id="imagen" name="imagen" placeholder="URL de la imagen del producto" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="flex items-center justify-center">
+                    <button type="submit" class="bg-purple-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Agregar Producto</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="text-center bg-purple-700 p-8">
+        <p class="text-4xl text-white pb-4">❤️❤️❤️ Alura Geek</p>
+        <p class="text-white text-2xl">Desarrollado por @kefx.8</p>
+        <p class="text-white text-2xl">2024</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
+</html>
+
+</html>
